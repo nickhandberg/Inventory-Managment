@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale = 1">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- readMe.html - Overview on the purpose of the project and initial wireframe/database design
+    Nicholas Handberg
+    Written:   11/12/2021
+    Revised: 12/18/2021
+    -->
+    <title>ReadMe</title>
+</head>
+<body>
+<div id = "card">
+    <h2>ReadMe</h2>
+    <a href="index.php">Home</a>
+    <a href="reflection.html">Reflection</a>
+    <p id = centered>
+        The purpose of this site will be to manage the inventory of Bob's Guitar Shop (fictional shop). The users will be able to add, remove, and update products through forms.<br/><br/>
+        <strong>The 5 W's are explained below:</strong>
+    </p>
+    <div id = "centeredList">
+        <ol type = "1">
+            <li><strong>Who:</strong> The user will be the inventory management team from Bob's Guitar Shop</li>
+            <li><strong>What:</strong> This is a inventory managment system</li>
+            <li><strong>When:</strong> The site will be incrementely completed over the course of the semester</li>
+            <li><strong>Where:</strong> The management system will be accessible online and will be using an online database</li>
+            <li><strong>Why:</strong>: The management system will allow the inventory managers access to updated information on their information at any time via the website</li>
+        </ol><br/>
+    </div> 
+    <p>Database Design Images</p>
+    <a href="graphic/layout.png" target="_blank" ><img src="graphic/layout.png" class="imageLink" alt="Image of proposed layout" ></a>
+    <a href="graphic/database.png" target="_blank"><img src="graphic/database.png" class="imageLink" alt="Image of proposed database"></a>
+    <div id = "centeredList">
+        <ol type = "1">
+            <li><strong>deleteProduct()</strong> This stored procedure deletes products from the database.</li>
+            <li><strong>checkDuplicate()</strong> This stored procedure checks for duplicate products when adding a new product.</li>
+            <li><strong>addProduct()</strong> This stored procedure adds new products to the database.</li>
+            <li><strong>updateProduct()</strong> This stored procedure updates product data in the database.</li>
+        </ol><br/>
+    </div> 
+    <p>Stored Procedure Images</p>
+    <a href="graphic/deleteProcedure.PNG" target="_blank" ><img src="graphic/deleteProcedure.PNG" class="imageLink" alt="Delete Product Stored Procedure" ></a>
+    <a href="graphic/duplicateProcedure.PNG" target="_blank"><img src="graphic/duplicateProcedure.PNG" class="imageLink" alt="Check Duplicate Stored Procedure"></a>
+    <a href="graphic/addProcedure.PNG" target="_blank"><img src="graphic/addProcedure.PNG" class="imageLink" alt="Add Product Stored Procedure"></a>
+    <a href="graphic/updateProcedure.PNG" target="_blank"><img src="graphic/updateProcedure.PNG" class="imageLink" alt="Update Product Stored Procedure"></a>
+</div>
+    
+</body>
+</html>
